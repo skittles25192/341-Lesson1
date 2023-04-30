@@ -1,1 +1,10 @@
 GET http://localhost:3000 HTTP/1.1
+
+###
+GET https://three41-lesson1-2.onrender.com HTTP/1.1
+
+###
+GET http://localhost:3000/contacts HTTP/1.1
+
+###
+GET http://localhost:3000/contacts/644ddf1b1295680505a6a584 HTTP/1.1
