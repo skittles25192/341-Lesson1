@@ -16,21 +16,19 @@ GET https://three41-lesson1-2.onrender.com/contacts/644ddf1b1295680505a6a584 HTT
 ### Create contact
 
 POST https://three41-lesson1-2.onrender.com/contacts HTTP/1.1
-
 content-type: application/json
 
 {
-    "firstName":"John",
-    "lastName":"Test",
-    "email":"Test@test.com",
-    "favoriteColor":"Gold",
-    "birthday":"06/09/1997"
+    "firstName": "John",
+    "lastName": "Test",
+    "email": "Test@test.com",
+    "favoriteColor": "Gold",
+    "birthday": "06/09/1997"
 }
 
 ### PUT contact
 
 PUT https://three41-lesson1-2.onrender.com/contacts/644ddf1b1295680505a6a584 HTTP/1.1
-
 content-type: application/json
 
 {
